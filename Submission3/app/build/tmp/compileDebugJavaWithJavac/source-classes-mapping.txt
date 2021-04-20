@@ -1,0 +1,18 @@
+com/example/github/databinding/ItemFavoriteBinding.java
+ com.example.github.databinding.ItemFavoriteBinding
+com/example/github/databinding/ActivityDetailBinding.java
+ com.example.github.databinding.ActivityDetailBinding
+com/example/github/databinding/ActivitySettingBinding.java
+ com.example.github.databinding.ActivitySettingBinding
+com/example/github/databinding/ActivityFavoriteBinding.java
+ com.example.github.databinding.ActivityFavoriteBinding
+com/example/github/databinding/UserListBinding.java
+ com.example.github.databinding.UserListBinding
+com/example/github/BuildConfig.java
+ com.example.github.BuildConfig
+com/example/github/databinding/FragmentFollowingBinding.java
+ com.example.github.databinding.FragmentFollowingBinding
+com/example/github/databinding/FragmentFollowerBinding.java
+ com.example.github.databinding.FragmentFollowerBinding
+com/example/github/databinding/ActivityMainBinding.java
+ com.example.github.databinding.ActivityMainBinding
