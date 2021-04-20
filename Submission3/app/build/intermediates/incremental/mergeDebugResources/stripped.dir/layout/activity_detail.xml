@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_2"
+    tools:context=".activity.DetailActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_photo_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:scaleType="centerCrop"
+        tools:src="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_photo_profile"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/name"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"
+        tools:ignore="PrivateResource" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/location"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"
+        tools:ignore="PrivateResource" />
+
+    <TextView
+        android:id="@+id/tv_blog"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_location"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/blog"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"
+        tools:ignore="PrivateResource" />
+
+    <RelativeLayout
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/img_photo_profile"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_repository"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:gravity="center"
+            android:text="@string/RepositoryNumber"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtRepository"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_repository"
+            android:paddingTop="4dp"
+            android:text="@string/repository"
+            android:textColor="@color/cardview_light_background" />
+
+        <TextView
+            android:id="@+id/tv_followers"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_toEndOf="@+id/txtRepository"
+            android:gravity="center"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/FollowersNumber"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_followers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_followers"
+            android:layout_marginStart="9dp"
+            android:layout_toEndOf="@+id/txtRepository"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/followers"
+            android:textColor="@color/cardview_light_background"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_following"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_toEndOf="@+id/txt_followers"
+            android:gravity="center"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/FollowersNumber"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtFollowing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_followers"
+            android:layout_marginStart="9dp"
+            android:layout_toEndOf="@+id/txt_followers"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/following"
+            android:textColor="@color/cardview_light_background"
+            tools:ignore="PrivateResource,RtlSymmetry" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_1"
+        android:layout_below="@+id/tv_blog"
+        app:tabTextColor="@android:color/white"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_below="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
