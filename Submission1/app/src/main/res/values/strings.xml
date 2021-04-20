@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">GithubUser</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="username_received">Username Received</string>
+    <string name="tv_followers">0</string>
+    <string name="tv_following">0</string>
+    <string name="show_location">Location</string>
+    <string name="name_received">Name Reiceved</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="location">Location</string>
+    <string name="follow">Follow</string>
+    <string name="share">Share</string>
+    <string name="company_received">Company Received</string>
+    <string name="email">Email</string>
+    <string name="txt_repository">Repository</string>
+    <string name="tv_repository">0</string>
+    <string name="company">Company :</string>
+    <string name="desc_photo">Photo</string>
+
+    <string-array name="data_name">
+        <item>Achmad Zaky</item>
+        <item>Anthony Tan</item>
+        <item>Elon Musk</item>
+        <item>Jackma</item>
+        <item>Jeff Bezos</item>
+        <item>Mark Zuckerberg</item>
+        <item>Nadiem Makarim</item>
+        <item>Travis Kalanick</item>
+        <item>Vincent Iswara</item>
+        <item>William Tanuwijaya</item>
+    </string-array>
+
+    <string-array name="data_username">
+        <item>achmad_zaky</item>
+        <item>anthony_tan</item>
+        <item>elon_musk</item>
+        <item>jackma</item>
+        <item>jeff_bezos</item>
+        <item>mark_zuckerberg</item>
+        <item>nadiem_makarim</item>
+        <item>travis_Kalanick</item>
+        <item>vincent_iswara</item>
+        <item>william_tanuwijaya</item>
+    </string-array>
+
+    <array name="data_photo">
+        <item>@drawable/achmad_zaky</item>
+        <item>@drawable/anthony_tan</item>
+        <item>@drawable/elon_musk</item>
+        <item>@drawable/jackma</item>
+        <item>@drawable/jeff_bezos</item>
+        <item>@drawable/mark_zuckerberg</item>
+        <item>@drawable/nadiem_makarim</item>
+        <item>@drawable/travis_kalanick</item>
+        <item>@drawable/vincent_iswara</item>
+        <item>@drawable/william_tanuwijaya</item>
+    </array>
+
+    <string-array name="data_followers">
+        <item>114K</item>
+        <item>8K</item>
+        <item>39M</item>
+        <item>599K</item>
+        <item>2,5M</item>
+        <item>6,9M</item>
+        <item>108K</item>
+        <item>23,7K</item>
+        <item>1K</item>
+        <item>44K</item>
+    </string-array>
+
+    <string-array name="data_following">
+        <item>507</item>
+        <item>27</item>
+        <item>97</item>
+        <item>0</item>
+        <item>0</item>
+        <item>372</item>
+        <item>17</item>
+        <item>281</item>
+        <item>63</item>
+        <item>91</item>
+    </string-array>
+
+    <string-array name="data_location">
+        <item>Indonesia</item>
+        <item>Singapura</item>
+        <item>Amerika</item>
+        <item>Tiongkok</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Indonesia</item>
+        <item>Amerika</item>
+        <item>Indonesia</item>
+        <item>Indonesia</item>
+    </string-array>
+
+    <string-array name="data_company">
+        <item>Bukalapak</item>
+        <item>Grab</item>
+        <item>SpaceX</item>
+        <item>Alibaba Group</item>
+        <item>Amazon</item>
+        <item>Facebook</item>
+        <item>Gojek</item>
+        <item>Uber</item>
+        <item>Dana</item>
+        <item>TokoPedia</item>
+    </string-array>
+
+    <string-array name="data_repository">
+        <item>10</item>
+        <item>9</item>
+        <item>19</item>
+        <item>3</item>
+        <item>9</item>
+        <item>18</item>
+        <item>4</item>
+        <item>9</item>
+        <item>4</item>
+        <item>4</item>
+    </string-array>
+</resources>
